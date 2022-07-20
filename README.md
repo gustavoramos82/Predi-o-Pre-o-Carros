@@ -48,3 +48,17 @@ Podemos ver que a maioria dos carros tem 4 e 12 airbaigs, e em relação ao pre�
 E os três modelo que mais se tem são Prius, Sonata e Camry
 
 ![image](https://user-images.githubusercontent.com/39843884/179799433-8d6855cc-bfb7-4613-80e1-d3c4be40d2b8.png)
+
+
+## Modelagem
+
+Foi aplicados os tratamentos e foi aplicados modelos de machine learning, em que o dataset foi dividido em 80% de treino e 20% de teste, a que teve melhor perfomace foi o *random forest* com as eguintes métricas:
+
+![image](https://user-images.githubusercontent.com/39843884/179984799-ddd9eaba-612c-4fce-ad48-2c904d681583.png)
+
+
+## Conclusão
+
+Podemos ver que o modelo apesar de ter até uma boa métrica, pode ser melhorado com uma boa coleta de dados pois como pode ver o mesmo tem preços muito discrepante, o que contribue para que o modelo não tenha uma boa perfomace, como podemos ver no gráfico abaixo, abaixo de 5 mil até que o modelo tem uma boa perfomace, mas acima disso, o modelo não consegue fazer uma boa estimativa, mostrando que o modelo só serie eficiente para preços abaixo desse valor, acima disso teria que ter uma maior coleta de dados para melhorar a perfomace.
+
+![image](https://user-images.githubusercontent.com/39843884/179985304-b64fc3f8-88cb-46cf-b410-5ca891bdbd6e.png)
